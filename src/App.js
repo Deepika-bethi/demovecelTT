@@ -30,8 +30,9 @@ function App() {
       <h1>Iam APP</h1>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        
         <Route path="/reg" element={<Register />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
